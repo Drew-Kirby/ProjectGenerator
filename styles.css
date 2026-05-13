@@ -151,3 +151,7 @@ footer {
 #resetbtn:active {
     transform: scale(0.98); /* Subtle click depression effect */
 }
+
+#footerIMG:hover, #footerIMG2:hover {
+    filter: invert(1) opacity(1);
+}
