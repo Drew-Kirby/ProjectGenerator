@@ -12,9 +12,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-grow: 1;
     padding: 20px;
     line-height: 1.6;
 }
@@ -61,7 +67,7 @@ p {
 }
 
 .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -77,6 +83,21 @@ footer {
     color: #38bdf8;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    background: rgb(36, 36, 36);
+    color: #38bdf8;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
 }
 
 .buttons {
