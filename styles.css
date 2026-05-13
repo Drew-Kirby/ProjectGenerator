@@ -33,7 +33,18 @@ body {
     font-size: 1.1rem;
     color: #94a3b8; /* Soft muted gray for better hierarchy */
     max-width: 500px;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #94a3b8; /* Soft muted gray for better hierarchy */
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+#estimatedTime {
+    margin-bottom: 30px;
 }
 
 /* 4. Interactive Button Styling */
