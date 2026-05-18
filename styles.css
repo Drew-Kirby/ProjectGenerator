@@ -155,3 +155,9 @@ footer {
 #footerIMG:hover, #footerIMG2:hover {
     filter: invert(1) opacity(1);
 }
+
+#weblink {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+}
